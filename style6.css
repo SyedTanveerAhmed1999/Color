@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+button{color: black;
+background-color: white;
+border: none;
+font-size: medium;}
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0;
+    border: 1;border-color: #130f40;
+    width:100%;
+}
+.color-box {
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    height: 150px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+        flex-wrap: wrap;}
+        @media (max-width: 900px) {
+            .color-grid {
+                grid-template-columns: repeat(1, 1fr);}}

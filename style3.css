@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+button{color: black;
+background-color: white;
+border: none;
+font-size: medium;}
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0;
+    border: 1;border-color: #130f40;
+    width:100%;
+}
+.color-box {
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    height: 150px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    flex-wrap: wrap;}
+    .jigglypuff { background-color: #ff77ff; }
+        .casandora-yellow { background-color: #ffc300; }
+        .pastel-red { background-color: #ff6f61; }
+        .megaman { background-color: #4dd0e1; }
+        .wild-caribbean-green { background-color: #00d084; }
+        .lian-hong-lotus-pink { background-color: #ff44aa; }
+        .double-dragon-skin { background-color: #ffa726; }
+        .amour { background-color: #f44236; }
+        .cyanite { background-color: #00bcd4; }
+        .dark-mountain-meadow { background-color: #00796b; }
+        .jade-dust { background-color: #00bfa5; }
+        .joust-blue { background-color: #42a5f5; }
+        .nasu-purple { background-color: #7e57c2; }
+        .light-blue-ballerina { background-color: #cfd8dc; }
+        .fuel-town { background-color: #546e7a; }
+        .aqua-velvet { background-color: #00838f; }
+        .bleu-de-france { background-color: #1976d2; }
+        .bluebell { background-color: #303f9f; }
+        .storm-petrel { background-color: #78909c; }
+        .imperial-primer { background-color: #263238; }
+        @media (max-width: 900px) {
+            .color-grid {
+                grid-template-columns: repeat(1, 1fr);}}

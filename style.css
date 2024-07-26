@@ -1,0 +1,23 @@
+.main{background-color: #3c40c6;
+height: 100vh;
+width: 100vw;
+overflow: scroll;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+
+row-gap: 50px;margin: 0;
+}
+.color-box{
+align-items:center; display: flex;flex-direction: column;
+justify-content: center;row-gap: 80px;
+}
+
+
+.one{display: flex; gap: 40px; }
+.two{display: flex; gap: 40px; }
+
+@media (max-width: 800px) {
+    .one, .two {
+        flex-direction: column;}}

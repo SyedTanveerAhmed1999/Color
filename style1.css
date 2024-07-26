@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+button{color: black;
+background-color: white;
+border: none;
+font-size: medium;}
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0;
+    border: 1;border-color: #130f40;
+    width:100%;
+}
+.color-box {
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    height: 150px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    /* flex-wrap: wrap; */
+
+}
+.beekeeper { background-color: #F6E58D; }
+.spiced-nectarine { background-color: #FFB48F; }
+.pink-glamour { background-color: #FF5E57; }
+.june-bud { background-color: #B8E994; }
+.coastal-breeze { background-color: #DAF7DC; }
+.turbo { background-color: #F9CA24; }
+.quince-jelly { background-color: #F0932B; }
+.carmine-pink { background-color: #EB2F06; }
+.pure-apple { background-color: #6AB04C; }
+.hint-of-ice-pack { background-color: #DFF9FB; }
+.middle-blue { background-color: #7ED6DF; }
+.heliotrope { background-color: #E056FD; }
+.exodus-fruit { background-color: #686DE0; }
+.deep-koamaru { background-color: #30336B; }
+.soaring-eagle { background-color: #95AFC0; }
+.greenland-green { background-color: #22A6B3; }
+.steel-pink { background-color: #BE2EDD; }
+.blurple { background-color: #4834D4; }
+.deep-cove { background-color: #130f40; }
+.wizard-grey { background-color: #535c68; }
+
+@media (max-width: 900px) {
+    .color-grid {
+        grid-template-columns: repeat(1, 1fr);}}

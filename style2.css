@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+button{color: black;
+background-color: white;
+border: none;
+font-size: medium;}
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0;
+    border: 1;border-color: #130f40;
+    width:100%;
+}
+.color-box {
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    height: 150px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    flex-wrap: wrap;}
+    .protoss-pylon { background-color: #00A8FF; }
+        .periwinkle { background-color: #9C88FF; }
+        .rise-n-shine { background-color: #FBC531; }
+        .download-progress { background-color: #4CD137; }
+        .seabrook { background-color: #487EB0; }
+        .vanadyl-blue { background-color: #0097E6; }
+        .matt-purple { background-color: #8C7AE6; }
+        .nanohanacha-gold { background-color: #E1B12C; }
+        .skirret-green { background-color: #44BD32; }
+        .naval { background-color: #40739E; }
+        .nasturcian-flower { background-color: #E84118; }
+        .lynx-white { background-color: #F5F6FA; }
+        .blueberry-soda { background-color: #7F8FA6; }
+        .mazarine-blue { background-color: #273C75; }
+        .blue-night { background-color: #353B48; }
+        .harley-davidson-orange { background-color: #C23616; }
+        .hint-of-pensive { background-color: #DCDDE1; }
+        .chain-gang-grey { background-color: #718093; }
+        .pico-void { background-color: #192A56; }
+        .electromagnetic { background-color: #2F3640; }
+ 
+        /* @media (max-width: 1000px) {
+            .color-box span {
+                display: none;}} */
+
+                @media (max-width: 900px) {
+                    .color-grid {
+                        grid-template-columns: repeat(1, 1fr);}
+
+            
+            
+    

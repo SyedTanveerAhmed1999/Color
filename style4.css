@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+button{color: black;
+background-color: white;
+border: none;
+font-size: medium;}
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0;
+    border: 1;border-color: #130f40;
+    width:100%;
+}
+.color-box {
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    height: 150px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+        flex-wrap: wrap;}
+        .sunflower { background-color: #ffc312; }
+        .energos { background-color: #c4e538; }
+        .blue-martina { background-color: #12cbc4; }
+        .lavender-rose { background-color: #fda7df; }
+        .bara-red { background-color: #ed4c67; }
+        .radiant-yellow { background-color: #f79f1f; }
+        .android-green { background-color: #a3cb38; }
+        .mediterranean-sea { background-color: #1289a7; }
+        .lavender-tea { background-color: #d980fa; }
+        .very-berry { background-color: #b53471; }
+        .puffins-bill { background-color: #ee5a24; }
+        .pixelated-grass { background-color: #009432; }
+        .merchant-marine-blue { background-color: #0652dd; }
+        .forgotten-purple { background-color: #9980fa; }
+        .hollyhock { background-color: #833471; }
+        .red-pigment { background-color: #ea2027; }
+        .turkish-aqua { background-color: #006266; }
+        .leagues-under-the-sea { background-color: #1b1464; }
+        .circumorbital-ring { background-color: #5758bb; }
+        .magenta-purple { background-color: #6f1e51; }
+        @media (max-width: 900px) {
+            .color-grid {
+                grid-template-columns: repeat(1, 1fr);}}
